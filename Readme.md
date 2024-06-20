@@ -71,7 +71,7 @@ Ce projet est une API RESTful construite avec Node.js, Express, PostgreSQL, et J
    npx knex migrate:latest
    ```
 
-## Usage
+## Utilisation
 
 1. **Démarrer le serveur:**
 
@@ -120,7 +120,7 @@ Ce projet est une API RESTful construite avec Node.js, Express, PostgreSQL, et J
     ```
   - Response: JWT Token
 
-### Tasks
+### Tâches
 
 - **POST /api/tasks**
   - Headers: `Authorization: Bearer <token>`
@@ -176,4 +176,4 @@ Ce projet est une API RESTful construite avec Node.js, Express, PostgreSQL, et J
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+Ce projet est placé sous la licence Richard Nkulu. Voir le fichier [LICENSE](LICENSE) pour plus de détails.
