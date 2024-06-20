@@ -36,11 +36,12 @@ Ce projet est une API RESTful construite avec Node.js, Express, PostgreSQL, et J
 
 1. **Configurer les variables d'environnement:**
 
-   Créez un fichier `.env` dans le répertoire racine avec le contenu suivant :
+   Créez un fichier `.env` dans le répertoire racine avec le contenu suivant et cela dependamment du port sur lequel votre serveur local ecoute les requêtes I/O de postgres.
+:
 
    ```env
    DATABASE_URL=postgresql://postgres:@localhost:5433/task_manager ou
-   DATABASE_URL=postgresql://postgres:@localhost:5432/task_manager dependamment de votre port
+   DATABASE_URL=postgresql://postgres:@localhost:5432/task_manager
    ```
 
 2. **Configurer Knex:**
